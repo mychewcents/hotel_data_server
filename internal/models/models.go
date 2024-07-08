@@ -5,7 +5,7 @@ type Hotel struct {
 	DestinationID     int          `json:"destination_id"`
 	Name              string       `json:"name"`
 	Location          LocationObj  `json:"location,omitempty"`
-	Description       string       `json:"descriptiopn"`
+	Description       string       `json:"description"`
 	Amenities         AmenitiesObj `json:"amenities"`
 	Images            ImagesObj    `json:"images"`
 	BookingConditions []string     `json:"booking_conditions,omitempty"`
