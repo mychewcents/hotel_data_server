@@ -2,8 +2,9 @@
 
 ## Installation steps
 1. Go v1.19 and above should be present on your system to run the application. You can download go binary from [here](https://go.dev/doc/install).
-2. Clone this repository in the GOPATH: `gopath/src/github.com/mychewcents/hotel_data_server`.
-3. Inside the repository, run the command: `go install` -> This would install all the required package. Mostly this required to run the tests. Otherwise, the codebase doesn't use anything outside the base-Go binary libraries.
+2. Need to setup GOPATH and GOSRC variable in the PATH variables to allow Go to install packages and access them.
+3. Clone this repository in the GOPATH: `gopath/src/github.com/mychewcents/hotel_data_server`.
+4. Inside the repository, run the command: `go install` -> This would install all the required package. Mostly this required to run the tests. Otherwise, the codebase doesn't use anything outside the base-Go binary libraries.
 
 ## Execution steps
 1. While in the root of the directory, run: `go run main.go`
